@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        .bebas-neau{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <section class="py-7 px-32">
+    <section class="py-7 px-32 h-screen bg-[#FFFBF0]">
         
         <!-- This is navbar -->
     
         <nav class="flex justify-between">
             <img class="h-8" src="Images/logo.png" alt="">
-            <ul class="flex gap-8">
+            <ul class="flex gap-8 roboto">
                 <a href=""><li>Home</li></a>
                 <a href=""><li>Product</li></a>
                 <a href=""><li>About Us</li></a>
@@ -23,13 +36,13 @@
         
         <!-- This is banner part -->
 
-        <div class="flex justify-between items-center">
-            <div>
-                <h2>Be the Penguins <br>
+        <div class="flex justify-between items-center pt-9">
+            <div class="gap-8">
+                <h2 class="bebas-neau text-7xl text-[#363958]"><span class="text-[#FABE4C]">Be the Penguins</span><br>
                     of Winter</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing <br>
+                <p class="mb-4 text-[#3E3E3E] text-base roboto">Lorem Ipsum is simply dummy text of the printing <br>
                     and typesetting industry.</p>
-                <button class="py-4 px-8"><a href="">BUY NOW</a></button>
+                <button class="py-4 px-8 roboto font-medium text-white text-base bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-md"><a href=""><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>  BUY NOW</a></button>
             </div>
             <img src="Images/model.png" alt="">
         </div>
